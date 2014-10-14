@@ -1,0 +1,74 @@
+{
+   "abstract" : "Provides gofmt and go vet plugins for Code::TidyAll",
+   "author" : [
+      "Gregory Oschwald <goschwald@maxmind.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142690",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Code-TidyAll-Plugin-Go",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::CPAN::Changes" : "0.19",
+            "Test::More" : "0",
+            "Test::NoTabs" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08",
+            "Test::Spelling" : "0.12"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Capture::Tiny" : "0",
+            "Code::TidyAll::Plugin" : "0",
+            "Moo" : "0",
+            "Try::Tiny" : "0",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "recommends" : {
+            "CPAN::Meta" : "2.120900"
+         },
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "File::Spec" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "Test::More" : "0",
+            "perl" : "5.006"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/maxmind/Code-TidyAll-Plugin-Go/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/maxmind/Code-TidyAll-Plugin-Go.git",
+         "web" : "https://github.com/maxmind/Code-TidyAll-Plugin-Go"
+      }
+   },
+   "version" : "0.01",
+   "x_authority" : "cpan:MAXMIND",
+   "x_contributors" : [
+      "Dave Rolsky <autarch@urth.org>"
+   ]
+}
+
