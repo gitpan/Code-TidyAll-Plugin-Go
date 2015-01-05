@@ -1,5 +1,5 @@
 package Code::TidyAll::Plugin::Go;
-$Code::TidyAll::Plugin::Go::VERSION = '0.01';
+$Code::TidyAll::Plugin::Go::VERSION = '0.02';
 # ABSTRACT: Provides gofmt and go vet plugins for Code::TidyAll
 
 __END__
@@ -14,7 +14,7 @@ Code::TidyAll::Plugin::Go - Provides gofmt and go vet plugins for Code::TidyAll
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -44,7 +44,7 @@ Gregory Oschwald <goschwald@maxmind.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by MaxMind, Inc..
+This software is copyright (c) 2015 by MaxMind, Inc..
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
